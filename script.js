@@ -21,7 +21,7 @@ for (let i = 0; i < 800; i++) {
 
         setTimeout(() => {
             square.style.backgroundColor = "#1d1d1d";
-        }, 1000);
+        }, 4000ms);
     });
 
     container.appendChild(square);
