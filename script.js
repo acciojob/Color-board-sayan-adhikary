@@ -1,4 +1,3 @@
-//your JS code here. If required.
 const container = document.getElementById("container");
 
 const colors = [
@@ -9,7 +8,6 @@ const colors = [
     "#2ecc71"
 ];
 
-// Create 800 boxes
 for (let i = 0; i < 800; i++) {
     const square = document.createElement("div");
     square.classList.add("square");
@@ -21,7 +19,7 @@ for (let i = 0; i < 800; i++) {
 
         setTimeout(() => {
             square.style.backgroundColor = "#1d1d1d";
-        }, 4000);
+        }, 1000);
     });
 
     container.appendChild(square);
